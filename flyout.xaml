@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<FlyoutPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="log_of_legends.flyout"
+            FlyoutLayoutBehavior="Popover" 
+            Title="flyout">
+    <FlyoutPage.Flyout>
+        <ContentPage Title="Submenuzin" BackgroundColor="PaleVioletRed">
+            <Label Text="Sub" 
+             FontSize="Large"
+             HorizontalTextAlignment="Center"
+             VerticalTextAlignment="Center"/>
+        </ContentPage>
+    </FlyoutPage.Flyout>
+    
+    <FlyoutPage.Detail>
+        <ContentPage Title="Submenuzin" BackgroundColor="DarkRed">
+            <Label Text="Detalhies" 
+             FontSize="Large"
+             HorizontalTextAlignment="Center"
+             VerticalTextAlignment="Center"/>
+        </ContentPage>
+    </FlyoutPage.Detail>
+    
+</FlyoutPage>
